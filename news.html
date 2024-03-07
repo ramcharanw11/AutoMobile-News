@@ -15,30 +15,29 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
+            <a class="navbar-brand" href="page1.html">
+                <img src="https://cdn3.vectorstock.com/i/1000x1000/87/02/auto-car-logo-template-icon-vector-21468702.jpg"
+                    style="width: 60px" alt="" />
+                TheCarHost
+            </a>
 
-            <img src="https://cdn3.vectorstock.com/i/1000x1000/87/02/auto-car-logo-template-icon-vector-21468702.jpg"
-                style="width: 60px" alt="" />
-
-
-
-            <a class="navbar-brand" href="page1.html">TheCarHost</a>
-
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="https://colorlib.com/etc/cf/ContactFrom_v2/index.html">Contact
+                        <a class="nav-link" href="https://colorlib.com/etc/cf/ContactFrom_v2/index.html">Contact
                             Us</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">
-                        Search
-                    </button>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
         </div>
@@ -47,16 +46,13 @@
     <div class="container mt-5">
         <h2 class="mb-4">Daily Car News</h2>
         <div class="row" id="news-container">
-
+            <!-- News content goes here -->
         </div>
-
     </div>
 
-
-
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="news.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
