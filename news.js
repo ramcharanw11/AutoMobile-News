@@ -1,23 +1,23 @@
 const newsData = [
   {
-    title: "News 1",
-    imageUrl: "mg-comet-ev-055153140-16x9_0.jpg.avif.....",
-    description: "MG COMET EV gets new variants;Check details.... ",
-    link: "https://www.mgmotor.co.in/vehicles/comet-ev-electric-car-in-india"
+    title: "TATA's Production hike...",
+    imageUrl: "https://t.ly/ewHK6",
+    description: " Tata Motors to Increase Commercial Vehicle Prices by Up to 2% in April",
+    link: "https://t.ly/ZUbCQ"
   },
   {
-    title: "News 2",
+    title: "New Ev's on Board",
     imageUrl: "mg-hector-2024-042711681-16x9_0.jpg.avif",
-    description: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-    link: "#"
+    description: " MG Motor India Eyes Two New Car Launches, Foresees EV Tipping Point",
+    link: "https://t.ly/2Q_Y5"
   },
   // Add more news items here
   {
-      title: "News 2",
-      imageUrl: "hyundai-venue-054130918-16x9_0.jpg.webp",
-      description: "This is a an wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      link: "#"
-    },
+    title: "Boosting EV's",
+    imageUrl: "https://t.ly/-rM5V",
+    description: " Ford to Boost EV Software Capabilities in Chennai, Adding 3,000 Jobs",
+    link: "https://t.ly/K05rV"
+  },
 ];
 
 // Function to dynamically generate news cards
